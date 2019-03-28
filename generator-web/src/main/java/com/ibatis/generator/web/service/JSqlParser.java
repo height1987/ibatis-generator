@@ -3,6 +3,7 @@ package com.ibatis.generator.web.service;
 import com.ibatis.generator.api.dto.MetaDataItem;
 import com.ibatis.generator.api.dto.TableMetaData;
 import com.ibatis.generator.api.service.SqlParser;
+import net.sf.jsqlparser.parser.CCJSqlParserManager;
 import net.sf.jsqlparser.parser.CCJSqlParserUtil;
 import net.sf.jsqlparser.statement.Statement;
 import net.sf.jsqlparser.statement.create.table.ColumnDefinition;
@@ -10,6 +11,7 @@ import net.sf.jsqlparser.statement.create.table.CreateTable;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Service;
 
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +42,9 @@ class JSqlParser implements SqlParser {
 
     private String prepare(String sql) {
 
-        return sql.replace("`", "").replace("ON UPDATE CURRENT_TIMESTAMP","");
+        return sql.replace("`", "")
+                .replace("ON UPDATE CURRENT_TIMESTAMP","")
+                .replace("USING BTREE","");
     }
 
     private TableMetaData translate(Statement parse) {

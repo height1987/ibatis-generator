@@ -1,7 +1,0 @@
-
-
-class $title{
-#foreach( $property in $properties )
-private $property.dataType $property.dataName;
-#end
-}
