@@ -1,0 +1,11 @@
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/dto/ClassMetaData.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/dto/CommonMetaData.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/simple.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/service/SqlParser.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/dto/ClassMetaDataItem.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/dto/MetaDataItem.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/dto/TableMetaData.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/util/JsonUtils.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/dto/TableMetaDataItem.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/service/SqlGenerator.java
+/Users/height/git/ibatis-generator/generator-service/src/main/java/com/ibatis/generator/api/service/PropertyMapping.java

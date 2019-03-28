@@ -1,0 +1,11 @@
+com/ibatis/generator/api/dto/MetaDataItem.class
+com/ibatis/generator/api/simple.class
+com/ibatis/generator/api/util/JsonUtils.class
+com/ibatis/generator/api/dto/ClassMetaDataItem.class
+com/ibatis/generator/api/service/SqlParser.class
+com/ibatis/generator/api/dto/ClassMetaData.class
+com/ibatis/generator/api/dto/TableMetaDataItem.class
+com/ibatis/generator/api/service/SqlGenerator.class
+com/ibatis/generator/api/service/PropertyMapping.class
+com/ibatis/generator/api/dto/TableMetaData.class
+com/ibatis/generator/api/dto/CommonMetaData.class
